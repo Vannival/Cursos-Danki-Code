@@ -32,6 +32,7 @@
       
         <a href="https://www.google.com/">meu link</a><!--A <a>tag define um hiperlink, que é usado para vincular de uma página a outra. O atributo mais importante do <a>elemento é o hrefatributo , que indica o destino do link. Por padrão, os links aparecerão da seguinte forma em todos os navegadores. Um link não visitado é sublinhado e azul. Um link visitado é sublinhado e roxo. Um link ativo é sublinhado e vermelho.-->
 <div>
+
     <table width="900" align="consectetur" border="2"><!--A <table>tag define uma tabela HTML.
 
         Uma tabela HTML consiste em um <table> elemento e um ou mais elementos <tr> , <th> e <td> .
@@ -40,23 +41,40 @@
         
         Uma tabela HTML também pode incluir elementos <caption> , <colgroup> , <thead> , <tfoot> e <tbody> .-->
 
-    <tr>
-        <td>Nome</td>
-        <td>Idade</td>
-        <td>Cargo</td>
-    </tr>
+    <thead><!--A <thead>tag é usada para agrupar o conteúdo do cabeçalho em uma tabela HTML.
 
-<tr>
-    <td>Ninho</td>
-    <td>45</td>
-    <td>Programador</td>
-</tr>
+        O <thead>elemento é usado em conjunto com os elementos <tbody> e <tfoot> para especificar cada parte de uma tabela (cabeçalho, corpo, rodapé).
+        
+        Os navegadores podem usar esses elementos para habilitar a rolagem do corpo da tabela independentemente do cabeçalho e rodapé. Além disso, ao imprimir uma tabela grande que abrange várias páginas, esses elementos podem habilitar o cabeçalho e rodapé da tabela a serem impressos na parte superior e inferior de cada página.-->
 
-<tr></tr>
-    <td>Guilherme</td>
-    <td>24</td>
-    <td>Programador</td>
-</tr>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cargo</th>
+        </tr>
+
+    </thead>
+
+    <tbody><!--A <tbody>tag é usada para agrupar o conteúdo do corpo em uma tabela HTML.
+
+        O <tbody>elemento é usado em conjunto com os elementos <thead> e <tfoot> para especificar cada parte de uma tabela (corpo, cabeçalho, rodapé).
+        
+        Os navegadores podem usar esses elementos para habilitar a rolagem do corpo da tabela independentemente do cabeçalho e rodapé. Além disso, ao imprimir uma tabela grande que abrange várias páginas, esses elementos podem habilitar o cabeçalho e rodapé da tabela a serem impressos na parte superior e inferior de cada página.-->
+
+        <tr>
+            <td>Ninho</td>
+            <td>45</td>
+            <td>Programador</td>
+        </tr>
+
+    
+        <tr>
+            <td>Guilherme</td>            
+            <td>24</td>
+            <td>Programador</td>
+        </tr>
+
+    </tbody>
 
     </table>
 </div> 
