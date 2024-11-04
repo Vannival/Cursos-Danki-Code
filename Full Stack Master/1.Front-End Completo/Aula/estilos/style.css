@@ -169,11 +169,15 @@ ol > li{
     background-color: #484848;
 }
 
-.espasamento{
-    display: inline-block;
+.espasamento{ 
+    box-sizing: border-box;
+    border: 5px solid red;
     vertical-align: top;
-    width: 600px;    
-    margin: 10px 12px;
-  
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 30px;
+    width: 640px; 
 }
+
+
 
