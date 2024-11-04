@@ -163,15 +163,17 @@ ol > li{
 
 .centro{
     box-sizing: border-box;
-    width: 12800px;
-    margin: auto;
+    width: 1280px;
+    margin: 0 auto;
     padding: 30px;
     background-color: #484848;
 }
 
 .espasamento{
-    width: 1280px;
-    margin-top: 50px;
-    
-    
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;    
+    margin: 10px 12px;
+  
 }
+
